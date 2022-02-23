@@ -1,5 +1,7 @@
 package atmSystem.bankAtmAndCorrespondingClasses;
 
+import atmSystem.customerCardAndAccount.Customer;
+import atmSystem.enumsAndDataTypes.Address;
 import atmSystem.transactionAndSubClasses.Transaction;
 
 /**

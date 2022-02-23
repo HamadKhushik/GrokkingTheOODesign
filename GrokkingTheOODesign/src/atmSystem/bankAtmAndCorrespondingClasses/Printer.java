@@ -1,5 +1,7 @@
 package atmSystem.bankAtmAndCorrespondingClasses;
 
+import atmSystem.transactionAndSubClasses.Transaction;
+
 /**
  * @author Hammad: 22-Feb-2022
  */
