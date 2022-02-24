@@ -29,4 +29,5 @@ public abstract class BasePlayer {
 	public void removeHand(Hand hand) {
 		hands.remove(hand);
 	}
+
 }

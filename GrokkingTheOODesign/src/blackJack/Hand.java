@@ -33,6 +33,7 @@ public class Hand {
 	}
 
 	public void addCard(BlackJackCard card) {
+		System.out.println("Player has: " + card.getFaceValue() + " card added");
 		cards.add(card);
 	}
 
@@ -46,5 +47,14 @@ public class Hand {
 			}
 		}
 		return bestScore;
+	}
+
+	public List<BlackJackCard> getCards() {
+		return cards;
+	}
+
+	@Override
+	public String toString() {
+		return "first card: " + cards.get(0).getFaceValue() + " second card: " + cards.get(1).getFaceValue();
 	}
 }
