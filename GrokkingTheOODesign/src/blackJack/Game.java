@@ -97,6 +97,7 @@ public class Game {
 			}
 			break;
 		}
+		System.out.println("End of Game");
 	}
 
 	public static void main(String[] args) {

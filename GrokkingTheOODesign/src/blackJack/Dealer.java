@@ -25,4 +25,5 @@ public class Dealer extends BasePlayer {
 		super.addHand(hand);
 		System.out.println("Hand with cards: " + hand.toString() + " added to dealer");
 	}
+
 }

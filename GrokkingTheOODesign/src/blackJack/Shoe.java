@@ -27,7 +27,7 @@ public class Shoe {
 	public void shuffle() {
 		int cardSize = cards.size();
 		Random rand = new Random();
-		for (int i = 0; i < cardSize; i++) {
+		for (int i = 0; i < cardSize - 1; i++) {
 			int index = i + rand.nextInt(cardSize - i); // rand.nextInt(cardSize - i - 1);-> in the course. I used the
 														// fisher - yates algorithm instead wikipaedia
 			swap(i, index);
