@@ -67,4 +67,8 @@ public class King extends Piece {
 		// check if the starting and ending position are correct
 		return true;
 	}
+
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
 }
