@@ -5,7 +5,7 @@ package onlineStockBrockerageSystem.enumsAndConstants;
  */
 public enum OrderStatus {
 	OPEN,
-	FILLED,
+	FAILED,
 	PARTIALLY_FILLED,
 	CANCELLED
 }
